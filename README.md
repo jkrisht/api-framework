@@ -9,5 +9,6 @@ API Automation Framework Design
 3. Execute the below commands to run the test cases from console:
    1. To run API tests: `mvn clean install test -DxmlFile=api_tests`
    2. To run unit tests: `mvn clean install test -DxmlFile=unit_tests`
+4. Reports for both api and unit tests are created under `reports` directory.
 
 ## Thank you :)

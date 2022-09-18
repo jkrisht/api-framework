@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Suite">
+    <listeners>
+        <listener class-name="com.commons.ReportingListener"/>
+    </listeners>
+    <test thread-count="5" name="API Tests" parallel="classes">
+        <classes>
+            <class name="com.usertests.UserApiTest"/>
+            <class name="com.pettests.PetApiTest"/>
+        </classes>
+    </test>
+    <!-- API Tests -->
+</suite> <!-- API Suite -->
